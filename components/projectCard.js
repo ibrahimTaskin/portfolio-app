@@ -29,7 +29,6 @@ const ProjectCard = ({ project: { title, description, tags, url, image } }) => {
             </div>
           </div>
         </div>
-        {title}
       </a>
   );
 };
