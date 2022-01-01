@@ -6,7 +6,7 @@ const ProjectCard = ({ project: { title, description, tags, url, image } }) => {
         href={url}
         target={"_blank"}
         rel="noopener noreferrer"
-        className="rounded-xl w-full bg-gradient-to-r from-[#2282ff] via-[#00f899] p-1 hover:cursor-pointer shadow-lg"
+        className="rounded-xl w-full  p-1 hover:cursor-pointer shadow-lg"
       >
         <div className="w-full h-full p-4 bg-white rounded-lg dark:bg-gray-900">
           <div className="flex flex-col items-center space-y-4">

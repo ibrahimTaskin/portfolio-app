@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import Footer from "./Footer";
 import Header from "./Header";
 
 const Layout = ({ title, description,backToHome, children }) => {
@@ -17,6 +18,7 @@ const Layout = ({ title, description,backToHome, children }) => {
         <div className="w-full h-full">
             <Header backToHome={backToHome}/>
             {children}
+            <Footer/>
         </div>
       </div>
     </>
