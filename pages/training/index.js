@@ -4,7 +4,6 @@ import TrainingComponent from "../../components/TrainingComponent";
 import { getAllTrainings } from "../../functions/getAllTrainings";
 
 const Training = ({trainings}) => {
-    console.log(trainings);
   return (
     <Layout title={"Training"} description={"my training"} backToHome={true}>
       <main className="w-full h-full">
